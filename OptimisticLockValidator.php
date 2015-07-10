@@ -8,7 +8,7 @@ class OptimisticLockValidator extends Validator {
 
     public function init() {
         parent::init();
-        $this->message = 'Data sudah kadaluwarsa.';
+        $this->message = Yii::t('app','Data is already expired');
     }
 
     /**
