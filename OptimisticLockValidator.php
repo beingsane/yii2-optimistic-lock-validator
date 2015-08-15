@@ -2,7 +2,8 @@
 
 namespace mootensai\components;
 
-use yii\validators\Validator;
+use Yii;
+use \yii\validators\Validator;
 
 class OptimisticLockValidator extends Validator {
 
